@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #E9C2C1;
+  color: #915EAB;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+a{
+  text-decoration: none;
+  color: #915EAB;
+}
+
+.header {
+  background-color: #F9E6E2;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  
+}
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #E9C2C1;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #915EAB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #F9E6E2;
+  color: #915EAB;
+}
